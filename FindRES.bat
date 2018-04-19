@@ -1,0 +1,1 @@
+python FindRES.py "RE sites.txt" "RE sites2.txt" "pMN3.txt"

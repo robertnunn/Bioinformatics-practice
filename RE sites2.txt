@@ -1,0 +1,6 @@
+﻿BamHI
+HindIII
+NheI
+XhoI
+XmaI
+SacI

@@ -1,0 +1,19 @@
+Single Letter Codes for Nucleotides
+Nucleotide(s) 	Code 	Acceptable by 	Treated as(in alignment) 	 
+makeblastdb/formatdb 	BLAST
+A	A	+	+	A
+C	C	+	+	C
+G	G	+	+	G
+T	T	+	+	T
+U	U	+	+	T
+A, C	M (amino)	-	+	N
+A, G	R (purine)	-	+	N
+A, T	W (weak)	-	+	N
+C, G	S (strong)	-	+	N
+C, T	Y (pyrimidine)	-	+	N
+G, T	K (keto)	-	+	N
+A,C,G	V (not T)	-	+	N
+A,C,T	H (not G)	-	+	N
+A,G,T	D (not C)	-	+	N
+C,G,T	B (not A)	-	+	N
+A,C,G,T	N (any nucleotide)	+	+	N
